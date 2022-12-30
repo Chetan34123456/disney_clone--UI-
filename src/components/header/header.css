@@ -1,0 +1,41 @@
+.disney__header {
+    background-color: #090b13;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+    padding: 0 36px;
+    height : 70px;
+}
+
+.disney__header img {
+    width : 80px;
+}
+.disney__header-navMenu {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    align-items: centre;
+}
+.disney__header-navMenu a {
+    /*justify-content: space-between; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    display: flex;
+    cursor: pointer;
+}
+.disney__header-navMenu img {
+    width: auto ;
+    height: 20px;
+}
+.disney__header-navMenu span {
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    position: relative;
+}
+.disney__header-profile img{
+    height: 40px;
+    cursor: pointer;
+}
